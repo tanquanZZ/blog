@@ -1,0 +1,57 @@
+--菜单数据
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('10501','明细下载','/account/accountDowload',0,1,'105',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('10102','订单下载','/account/downOrder',1,1,'101',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('40202','更改操作员状态','/user/updateUserSt',1,1,'402',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('40203','修改操作员','/user/user_update',2,11,'402',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('50202','保存登录密码','/user/updLoginPwd',2,1,'502',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('50106','保存支付密码','/user/updPayPwd',6,1,'501',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('1','查询统计',' ',0,1,'-1',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('101','订单查询','/account/orderList',1,1,'1',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('102','转账查询','/trans/transferAmtList',2,1,'1',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('103','充值查询','/trans/rechargeList',3,1,'1',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('104','提现查询','/trans/cashList',4,1,'1',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('2','退款管理',' ',1,1,'-1',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('201','退款申请','/refund/refundOrderList',0,1,'2',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('202','退款复核','/refund/checkRefundList',1,1,'2',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('203','退款查询','/queryrefund/list',2,1,'2',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('3','对帐管理',' ',2,1,'-1',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('301','对账查询','/accountCheck/list',1,1,'3',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('4','系统管理',' ',3,1,'-1',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('401','角色管理','/role/role_list',0,1,'4',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('402','操作员管理','/user/user_list',1,1,'4',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('403','接口密钥管理','/user/interfaceKey',2,1,'4',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('5','安全中心',' ',4,1,'-1',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('105','账务明细','/account/accountDetail',0,1,'1',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('40101','添加角色','/role/role_add',0,1,'401',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('40201','添加操作员','/user/user_add',0,1,'402',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('20101','退款申请页','/refund',1,1,'201',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('20102','退款申请保存','/refund/applyRefund',0,1,'201',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('20201','退款复核操作','/refund/checkRefund',0,1,'202',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('20202','退款复核下载','/refund/downCheckRefund',1,1,'202',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('50107','忘记支付密码保存','/user/updNewPayPwd',7,1,'501',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('10202','转账查询详情','/trans/transInfo',3,1,'102',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('10101','订单详情','/account/orderDetail',0,1,'101',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('30101','对账详情','/accountCheck/detail',0,1,'301',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('30102','对账下载','/accountCheck/downLoad',1,11,'301',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('501','支付密码','/user/payPwd',1,1,'5',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('502','登录密码','/user/loginPwd',0,1,'5',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('40102','修改角色','/role/role_update',1,11,'401',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('10301','充值查询导出','/trans/rechargeExPort',1,1,'103',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('20301','退款查询详情','/queryrefund/detail',0,1,'203',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('20302','退款查询下载','/queryrefund/downLoad',1,1,'203',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('10401','提现查询导出','/trans/cashExPort',1,1,'104',' ');
+Insert into EPAYSCH.TMERMENU (ID,NAME,URL,SORT,STATE,FID,MEMO) values ('10201','转账查询导出','/trans/transferExPort',2,1,'102',' ');
+--用户数据
+insert into tmerloguser (id,pwd,provcode,areacode,state,taccountid,nickname,regtime,lastlogintime,lastloginip,sessionid,islocked,cnt,email,mobilenumber,lastmodifypwdtime,finger_pwd,is_operator,reg_source) values ('admin','ismvkxpxpaddiuoosoafww==','000','000',1,'805110060120003',' ',to_timestamp('01-1月 -00 12.00.00.000000000 上午','dd-mon-rr hh.mi.ssxff am'),to_timestamp('18-2月 -16 11.01.44.912000000 上午','dd-mon-rr hh.mi.ssxff am'),'127.0.0.1','b4324a0c3d7ec9d8573d4fe240eee2b5',0,615,'41268577@qq.com',' 13701111111',to_timestamp('01-1月 -00 12.00.00.000000000 上午','dd-mon-rr hh.mi.ssxff am'),' ',0,0);
+--角色数据
+insert into tmerrole (id,taccountid,name) values ('000000001','805110060120003','测试');
+--角色菜单数据
+insert into tmermenurole (troleid,tmenuid) values ('000000001','4');
+insert into tmermenurole (troleid,tmenuid) values ('000000001','401');
+insert into tmermenurole (troleid,tmenuid) values ('000000001','40101');
+insert into tmermenurole (troleid,tmenuid) values ('000000001','40102');
+insert into tmermenurole (troleid,tmenuid) values ('000000001','402');
+insert into tmermenurole (troleid,tmenuid) values ('000000001','40201');
+insert into tmermenurole (troleid,tmenuid) values ('000000001','40202');
+insert into tmermenurole (troleid,tmenuid) values ('000000001','40203');
+insert into tmermenurole (troleid,tmenuid) values ('000000001','403');

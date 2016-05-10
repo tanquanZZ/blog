@@ -1,0 +1,58 @@
+.clearfix:after{ visibility: hidden;display: block;font-size: 0;content: "."; clear: both; height: 0; } 
+* html .clearfix{zoom: 1;} /* IE6 */
+*:first-child + html .clearfix{zoom: 1;}/* IE7 */ 
+/****ÎÄ±¾¾ÓÖÐ*****/
+.wrap {display:table;}
+.content {display:table-cell;}
+.word-wrap {word-wrap:break-word;}
+
+
+
+.bd {border:1px gray solid;}
+.bd-left {border-left:1px gray solid;}
+.bd-right {border-right:1px gray solid;}
+.bd-r {border:1px red solid;}
+.bd-g {border:1px green solid;}
+
+.yml {padding-left:45px;}
+.yml .blog-nav {width:45px;height:100%;position:fixed;top:0;left:0px;background: #2a2a2a;z-index:1049;}
+.yml .blog-frame {width:100%;min-height:1000px;}
+
+.blog-nav .nav-tool {position:relative;}
+.nav-user {position:absolute;bottom:0;left:0;padding-bottom:5px;width:100%;}
+
+.blog-nav a {display:block;padding: 10px;font-size: 16px;line-height: 25px;text-align: center;text-decoration: none;font-size: 18px;color: #999999;text-shadow: 0 1px 0 black;}
+.blog-nav a.active {background-color: #e78170;text-shadow: 0 1px 0 #de533a;color: white;}
+.blog-nav a:hover {background-color: #f49484;color: white;}
+.blog-nav a b {font-weight: normal;}
+.blog-nav a i {width:16px;display: inline-block;text-align: center;line-height: 14px;display: inline-block;margin: 0;font-size:16px;}
+.blog-nav span {display:none;}
+.blog-nav a.logo i {display:none;}
+
+
+
+
+.frame-theme {width:25%;position:fixed;top:0;left:45px;height:100%;}
+.frame-body {width:58.33333%;margin-left:25.0%;float:left;padding-left:12px;}
+
+@media (min-width: 1588px) {
+	.yml {padding-left:170px;}
+	.yml .blog-nav {width:170px;}
+	
+	.blog-nav a {padding: 10px 15px;text-align: left;}
+	.blog-nav span {padding:0;display: inline-block;font-size: 14px;font-weight: normal;line-height: 14px;text-indent:3px;}
+	.blog-nav a b {display:none;}
+	.blog-nav a.logo i {width:16px;display: inline-block;text-align: center;line-height: 14px;display: inline-block;margin: 0;}
+	.blog-nav a.logo i.fa-home {font-size:18px;}
+	
+	.frame-theme {left:170px;}
+	.frame-body{padding-left:42px;}
+}
+@media (max-width: 768px) {
+	.yml {padding-left:0;}
+	.yml .blog-nav {display:none;}
+	
+	.frame-theme {display:none;}
+	.frame-body {width:100%;padding:5px;margin:auto;}
+}
+
