@@ -12,9 +12,9 @@ public class MainController{
 	public String index(Model model){
 		return "index";
 	}
-	@RequestMapping("/test2")
+	@RequestMapping("/login")
 	public String index2(Model model){
-		return "index2";
+		return "login";
 	}
 
 }
