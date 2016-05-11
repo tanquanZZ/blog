@@ -96,7 +96,7 @@ public class GeetestLib {
 	public String getVersionInfo() {
 		return verName;
 	}
-
+	
 	/**
 	 * 预处理失败后的返回格式串
 	 * 
@@ -114,7 +114,7 @@ public class GeetestLib {
 				"{\"success\":%s,\"gt\":\"%s\",\"challenge\":\"%s\"}", 0,
 				this.captchaId, challenge);
 	}
-
+	
 	/**
 	 * 预处理成功后的标准串
 	 * 
@@ -126,7 +126,7 @@ public class GeetestLib {
 				"{\"success\":%s,\"gt\":\"%s\",\"challenge\":\"%s\"}", 1,
 				this.captchaId, challenge);
 	}
-
+	
 	/**
 	 * 验证初始化预处理
 	 *
